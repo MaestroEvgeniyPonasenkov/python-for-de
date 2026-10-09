@@ -1,0 +1,652 @@
+2024-03-15 10:51:25 WARN user=user+tag@gmail.com action=login ip=203.0.113.42 extra=foo note=bar
+2024-13-01 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 11:46:57 DEBUG user=petr.sidorov@yandex.ru action=login ip=8.8.8.8 msg=retry retry retry please please
+2024-03-15 09:36:54 WARN user=petr.sidorov@yandex.ru action=retry ip=999.1.1.1
+2024-03-15 09:07:09 ERROR user=user@domain. action=delete ip=0.0.0.0
+2024-03-15 10:28:11 ERROR user=@onlydomain.com action=pay ip=300.300.300.300 card=4111-1111-1111-11111
+2024-03-15 10:04:06 ERROR user=user+tag@gmail.com action=pay ip=127.0.0.1 card=4111-1111-1111-1111-1111
+2024-03-15 10:59:38 DEBUG user=a.b@domain.co action=login ip=255.255.255.255 extra=foo note=bar
+2024-03-15 12:16:08 INFO user=x@y.z action=login ip=203.0.113.42 path=/api/v1/users
+2024-03-15 08:40:48 ERROR user=petr.sidorov@yandex.ru action=export ip=192.168.0.12
+2024-03-15 08:05:06 DEBUG user=petr.sidorov@yandex.ru action=pay ip=255.255.255.255
+2024-03-15 09:05:44 ERROR user=bad..email@ action=login ip=1.1.1.1
+   
+2024-03-15 08:59:13 ERROR user=end.@mail.ru action=update ip=10.1.2.3
+2024-03-15 11:48:05 ERROR user=ivan@mail.ru action=view ip=172.16.254.1 msg=Напишите функцию функцию которая будет будет будет удалять повторы
+2024-03-15 09:54:11 ERROR user=ivan@mail.ru action=pay ip=172.16.254.1 card=3400-0000-0000-009
+2024-03-15 13:30:56 ERROR user=user+tag@gmail.com action=login ip=192.168.0.12
+2024-03-15 09:00:55 ERROR user=double@@mail.ru action=update ip=192.168.0.12
+2024-03-15 08:30:36 ERROR user=user+tag@gmail.com action=logout ip=192.168.0.12
+2024-03-15 08:32:52 DEBUG user=olga@company.com action=pay ip=10.1.2.3
+2024-03-15 08:23:48 ERROR user=test_user@sub.domain.org action=login ip=172.16.254.1
+2024-03-15 08:58:22 ERROR user=user@-domain.com action=retry ip=127.0.0.1
+2024-03-15 12:43:20 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:38:49 INFO user=anna123@corp.local action=delete ip=8.8.8.8
+2024-03-15 09:28:24 WARN user=user+tag@gmail.com action=retry ip=192.168.0.
+2024-03-15 09:39:44 WARN user=user+tag@gmail.com action=retry ip=256.0.0.1
+2024-03-15 13:59:50 ERROR user=double@@mail.ru action=pay ip=192.168.-1.1 card=4000-1234-5678-9010
+2024-03-15 14:24:00Z INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:30:53 DEBUG user=petr.sidorov@yandex.ru action=pay ip=172.16.254.1 session=7116
+2024-03-15 09:29:49 WARN user=test_user@sub.domain.org action=retry ip=192.168.0.12.1
+2024.03.15 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 13:49:21 ERROR user=user@ action=pay ip=192.168.0.12:8080 card=4111-1111-1111-1111
+2024-03-15 08:49:18 WARN user=user+tag@gmail.com action=login ip=1.1.1.1
+2024-03-15 09:54:45 ERROR user=user+tag@gmail.com action=pay ip=172.16.254.1 card=4111 1111 1111 1111
+2024-03-15 10:50:34 INFO user=user+tag@gmail.com action=login ip=8.8.8.8 extra=foo note=bar
+2024-03-15 09:11:58 ERROR user=user@.com action=pay ip=0.0.0.0
+2024-03-15 13:46:14 ERROR user=кириллица@mail.ru action=pay ip=192.168.0.12.1 card=5500-0000-0000-0004
+2024-03-15 08:02:33 INFO user=a.b@domain.co action=retry ip=8.8.8.8
+2024-03-15 08:38:15 DEBUG user=ivan@mail.ru action=pay ip=203.0.113.42 card=4000-1234-5678-9010
+2024-03-15 11:24:00 INFO user = olga@company.com action = login ip = 8.8.4.4
+2024-03-15 08:17:00 INFO user=a.b@domain.co action=update ip=0.0.0.0
+2024-03-15 13:14:13 ERROR user=anna123@corp.local action=export ip=10.1.2.3
+2024-03-15 09:07:43 ERROR user=.start@mail.ru action=login ip=192.168.0.12
+2024-03-15 09:12:15 ERROR user=user@domain. action=login ip=8.8.8.8
+2024-03-15 11:23:26 DEBUG action=export user=petr.sidorov@yandex.ru ip=8.8.8.8 msg=ok
+2024-03-15 11:00:46 DEBUG user=x@y.z action=login ip=172.16.254.1 extra=foo note=bar
+2024-03-15 10:04:23 ERROR user=ivan@mail.ru action=pay ip=10.1.2.3 card=4111 1111 1111 1111
+2024-03-15 13:12:48 DEBUG user=a.b@domain.co action=pay ip=172.16.254.1
+2024.03.15 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:11:54 DEBUG user=ivan@mail.ru action=retry ip=1.1.1.1
+2024-03-15 10:05:48 ERROR user=petr.sidorov@yandex.ru action=pay ip=172.16.254.1 card=4111 1111 1111 1111
+2024-03-15 13:29:14 DEBUG user=olga@company.com action=logout ip=0.0.0.0
+2024-03-15 09:53:37 ERROR user=a.b@domain.co action=pay ip=8.8.4.4 card=4111111111111111
+2024-03-15 08:21:15 WARN user=a.b@domain.co action=update ip=8.8.8.8
+2024-03-15 10:25:21 ERROR user=кириллица@mail.ru action=pay ip=999.1.1.1 card=4111-1111-1111
+2024-03-15 08:05:23 ERROR user=petr.sidorov@yandex.ru action=export ip=255.255.255.255
+2024-03-15 09:09:08 ERROR user=user@domain..com action=logout ip=1.1.1.1
+this is not a log line at all
+2024-03-15 10:01:33 ERROR user=user+tag@gmail.com action=pay ip=0.0.0.0 card=4111-1111-1111
+2024-03-15 10:57:05 ERROR user=test_user@sub.domain.org action=login
+2024-03-15 11:25:25 info user=a.b@domain.co action=login ip=127.0.0.1
+2024-03-15T14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 11:52:20 DEBUG user=test_user@sub.domain.org action=export ip=10.0.0.5 msg=error error error timeout
+2024-03-15 11:49:30 INFO user=test_user@sub.domain.org action=view ip=10.0.0.5 msg=error error error timeout
+2024-03-15 14:00:60 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 08:39:40 INFO user=a.b@domain.co action=export ip=255.255.255.255
+2024-03-15 10:53:24 ERROR user=olga@company.com action=login
+2024-03-15 13:23:17 INFO user=user+tag@gmail.com action=view ip=0.0.0.0
+2024-03-15 13:34:03 WARN user=anna123@corp.local action=delete ip=1.1.1.1
+2024-03-15 08:44:12 INFO user=petr.sidorov@yandex.ru action=export ip=127.0.0.1
+2024-03-15 09:04:36 ERROR user=spaces emma@mail.ru action=view ip=1.1.1.1
+2024-03-15 13:43:24 ERROR user=user@domain..com action=pay ip=1.2.3 card=4000-1234-5678-9010
+2024-03-15 11:24:51 INFO ip=8.8.4.4 action=view user=x@y.z
+2024-03-15 08:47:19 WARN user=test_user@sub.domain.org action=view ip=8.8.8.8
+2024-03-15 08:41:22 ERROR user=olga@company.com action=view ip=10.0.0.5
+2024-03-15 13:27:15 WARN user=user+tag@gmail.com action=pay ip=192.168.0.12
+2024-03-15 13:53:36 ERROR user=bad..email@ action=pay ip=abc.def.ghi.jkl card=3400-0000-0000-009
+2024-03-15 10:22:48 ERROR user=user@domain. action=pay ip=256.0.0.1 card=4111-1111-1111-1111-1111
+2024-03-15 08:18:25 DEBUG user=user+tag@gmail.com action=delete ip=127.0.0.1
+2024-03-15T14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:18:08 WARN user=ivan@mail.ru action=retry ip=172.16.254.1
+2024-03-15 08:12:11 ERROR user=petr.sidorov@yandex.ru action=export ip=8.8.4.4 session=9983
+2024-03-15 09:25:17 WARN user=anna123@corp.local action=retry ip=[192.168.0.12]
+2024-03-15 09:30:23 WARN user=petr.sidorov@yandex.ru action=retry ip=abc.def.ghi.jkl
+2024-03-15 13:23:51 DEBUG user=olga@company.com action=retry ip=10.1.2.3
+2024-03-15 10:22:31 ERROR user=user@-domain.com action=pay ip=256.0.0.1 card=4111-1111-1111
+2024-03-15 08:18:59 INFO user=olga@company.com action=view ip=192.168.0.12
+2024-03-15 13:26:07 WARN user=petr.sidorov@yandex.ru action=retry ip=10.1.2.3
+2024-03-15 08:07:56 INFO user=anna123@corp.local action=export ip=10.0.0.5
+   
+2024-03-15 08:37:41 WARN user=user+tag@gmail.com action=update ip=8.8.4.4
+2024-03-15 13:44:49 ERROR user=user@domain..com action=pay ip=01.02.03.04 card=4111 1111 1111 1111
+2024-13-01 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:25:04 ERROR user=user@-domain.com action=pay ip=300.300.300.300 card=4111-1111-1111-abcd
+2024-03-15 09:12:32 ERROR user=@onlydomain.com action=delete ip=127.0.0.1
+2024-03-15 08:07:22 INFO user=olga@company.com action=update ip=1.1.1.1 session=4407
+2024-03-15 09:57:35 ERROR user=olga@company.com action=pay ip=1.1.1.1 card=4111-1111-1111-11111
+2024-03-15 13:46:31 ERROR user=no-at-sign.ru action=pay ip=192.168.0. card=4111-1111-1111-111
+---
+2024-03-15 10:56:31 WARN
+2024-03-15 10:55:06 ERROR user=ivan@mail.ru action=login ip=255.255.255.255 extra=foo note=bar
+2024-03-15 24:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 13:19:02 INFO user=user+tag@gmail.com action=update ip=192.168.0.12
+2024-03-15 08:37:24 ERROR user=ivan@mail.ru action=login ip=10.1.2.3
+2024-03-15 11:27:07 DEBUG action=export user=x@y.z ip=0.0.0.0 msg=ok
+2024-03-15 10:29:53 ERROR user=user@ action=pay ip=192.168.0.12.1 card=4111-1111-1111-11111
+2024-03-15 13:24:59 WARN user=ivan@mail.ru action=view ip=127.0.0.1
+2024-03-15 08:23:31 INFO user=ivan@mail.ru action=logout ip=172.16.254.1 session=1682
+2024-03-15 10:52:50 WARN user=petr.sidorov@yandex.ru action=login ip=8.8.4.4 extra=foo note=bar
+2024-03-15 09:34:21 WARN user=petr.sidorov@yandex.ru action=retry ip=abc.def.ghi.jkl
+2024-03-15 13:40:17 ERROR user=user@domain. action=pay ip=192.168.0. card=4111111111111111
+2024-03-15 10:04:40 ERROR user=user+tag@gmail.com action=pay ip=192.168.0.12 card=4111111111111111
+2024-03-15 08:00:00 INFO user=anna123@corp.local action=retry ip=255.255.255.255 session=9779
+2024-03-15 09:36:37 WARN user=x@y.z action=retry ip=1.2.3.4.5
+2024-03-15 08:46:11 WARN user=test_user@sub.domain.org action=export ip=1.1.1.1
+2024-03-15 09:27:50 WARN user=a.b@domain.co action=retry ip=1.2.3
+2024-03-15 08:24:05 DEBUG user=olga@company.com action=retry ip=8.8.4.4
+2024-03-15 12:20:06 INFO user=petr.sidorov@yandex.ru action=login ip=1.1.1.1 path=/api/v1/users
+2024-03-15 09:08:34 ERROR user=no-at-sign.ru action=login ip=10.1.2.3
+2024-03-15 14:02:06 ERROR user=bad..email@ action=pay ip=192.168.0.12:8080 card=4111-1111-1111-111
+2024-03-15 11:22:01  INFO  user=ivan@mail.ru  action=login  ip=8.8.4.4
+Mar 15 2024 14:24:00 INFO user=olga@company.com action=logout ip=10.0.0.5
+2024-03-15 08:41:39 ERROR user=olga@company.com action=pay ip=255.255.255.255
+2024-03-15 13:18:28 INFO user=test_user@sub.domain.org action=retry ip=203.0.113.42
+2024-03-15 10:00:08 ERROR user=a.b@domain.co action=pay ip=8.8.8.8 card=4111 1111 1111 1111
+2024-03-15 08:30:19 ERROR user=olga@company.com action=update ip=255.255.255.255
+2024-03-15 08:45:20 DEBUG user=x@y.z action=update ip=127.0.0.1
+2024-03-15 08:43:38 INFO user=olga@company.com action=login ip=8.8.8.8
+2024-03-15 11:52:54 INFO user=olga@company.com action=export ip=8.8.8.8 msg=connection connection lost lost lost
+2024-03-15 09:11:24 ERROR user=@onlydomain.com action=view ip=10.1.2.3
+ERROR without timestamp user=x action=y ip=1.1.1.1
+2023-02-29 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 08:21:49 INFO user=test_user@sub.domain.org action=retry ip=192.168.0.12
+2024-03-15 09:25:51 WARN user=olga@company.com action=retry ip=192.168.0.
+2024-03-15 08:31:10 DEBUG user=test_user@sub.domain.org action=login ip=8.8.4.4
+2024-03-15 13:54:44 ERROR user=user name@mail.ru action=pay ip=1.2.3 card=4000-1234-5678-9010
+2024-03-15 09:35:29 WARN user=user+tag@gmail.com action=retry ip=999.1.1.1
+2024-03-15 13:57:00 ERROR user=user@domain. action=pay ip=999.1.1.1 card=6011-0009-9013-9424
+2024-03-15 14:60:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:58:13 DEBUG user=test_user@sub.domain.org action=login
+2024-03-15 12:17:33 INFO user=x@y.z action=login ip=1.1.1.1 msg=ok;status=200
+2024-03-15 08:08:13 ERROR user=x@y.z action=export ip=203.0.113.42 session=2674
+
+2024-03-15 08:13:02 ERROR user=user+tag@gmail.com action=pay ip=1.1.1.1 card=5500-0000-0000-0004 session=6796
+2024-03-15 08:07:05 WARN user=ivan@mail.ru action=pay ip=10.0.0.5 card=4111-1111-1111-1111 session=3478
+2024-03-15 09:10:16 ERROR user=user@-domain.com action=pay ip=10.0.0.5
+Mar 15 2024 14:24:00 INFO user=olga@company.com action=logout ip=10.0.0.5
+2024-03-15 11:47:14 DEBUG user=petr.sidorov@yandex.ru action=update ip=10.0.0.5 msg=timeout timeout timeout timeout
+garbage <<<>>>
+2024-03-15 10:57:56 INFO user=user+tag@gmail.com action=login
+garbage <<<>>>
+2024-03-15 10:25:38 ERROR user=end.@mail.ru action=pay ip=... card=3400-0000-0000-009
+this is not a log line at all
+2024-03-15 08:59:30 ERROR user=@onlydomain.com action=retry ip=0.0.0.0
+2024-03-15 10:23:39 ERROR user=user@domain. action=pay ip=1.2.3.4.5 card=XXXX-XXXX-XXXX-1111
+2024-03-15 13:58:08 ERROR user=user@-domain.com action=pay ip=300.300.300.300 card=4111-1111-1111-abcd
+2024-03-15 09:25:00 WARN user=ivan@mail.ru action=retry ip=127.0.0.01
+2024-03-15 12:16:59 INFO user=olga@company.com action=login ip=255.255.255.255 path=/api/v1/users
+2024-03-15 09:37:45 WARN user=petr.sidorov@yandex.ru action=retry ip=1.2.3.4.5
+2024-03-15 08:25:47 INFO user=olga@company.com action=logout ip=8.8.4.4
+2024-03-15 08:20:24 INFO user=ivan@mail.ru action=view ip=192.168.0.12 session=9284
+2024-03-15 13:53:02 ERROR user=user@ action=pay ip=256.0.0.1 card=4111-1111-1111-11111
+2024-00-10 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:00:59 ERROR user=x@y.z action=pay ip=10.0.0.5 card=4111-1111-1111-11111
+2024-03-15 08:16:09 ERROR user=petr.sidorov@yandex.ru action=update ip=127.0.0.1
+2024-03-15 08:57:14 ERROR user=user@ action=login ip=255.255.255.255
+2024-03-15 10:50:51 DEBUG user=ivan@mail.ru
+2024-03-15 10:53:07 DEBUG action=login ip=255.255.255.255
+2024-03-15 08:13:53 DEBUG user=petr.sidorov@yandex.ru action=retry ip=127.0.0.1
+2024-03-15 11:53:28 INFO user=olga@company.com action=pay ip=10.0.0.5 msg=connection connection lost lost lost
+2024-03-15 08:36:16 INFO user=ivan@mail.ru action=retry ip=8.8.8.8
+2024-03-15 08:26:04 ERROR user=x@y.z action=view ip=10.0.0.5
+NULL
+2024-03-15 08:04:49 WARN user=olga@company.com action=export ip=192.168.0.12
+2024-03-15 09:55:02 ERROR user=olga@company.com action=pay ip=10.1.2.3 card=4111111111111111
+2024-03-15 12:15:51 INFO user=olga@company.com action=login ip=172.16.254.1 ua=Mozilla/5.0
+2024-03-15 08:13:36 INFO user=ivan@mail.ru action=export ip=127.0.0.1
+2024-03-15 08:23:14 WARN user=x@y.z action=view ip=10.1.2.3
+2024-03-15 08:16:43 DEBUG user=petr.sidorov@yandex.ru action=delete ip=10.1.2.3
+2024-03-15 12:16:42 INFO user=ivan@mail.ru action=login ip=192.168.0.12 ua=Mozilla/5.0
+2024-03-15 08:50:09 INFO user=test_user@sub.domain.org action=retry ip=8.8.4.4
+2023-02-29 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:51:08 DEBUG action=login ip=255.255.255.255
+2024-03-15 08:28:03 DEBUG user=olga@company.com action=export ip=172.16.254.1
+2024-03-15 11:52:03 INFO user=x@y.z action=login ip=10.0.0.5 msg=timeout timeout timeout timeout
+2024-03-15 08:22:23 WARN user=ivan@mail.ru action=export ip=127.0.0.1
+2024-03-15 08:10:29 ERROR user=a.b@domain.co action=export ip=8.8.8.8
+2024-03-15 10:54:32 DEBUG
+2024-03-15 09:35:46 WARN user=ivan@mail.ru action=retry ip=127.0.0.01
+2024-03-15 08:47:36 INFO user=olga@company.com action=export ip=192.168.0.12 session=4786
+2024-03-15 10:29:02 ERROR user=@onlydomain.com action=pay ip=1.2.3.4.5 card=4111-1111-1111
+2024-03-15 09:57:52 ERROR user=petr.sidorov@yandex.ru action=pay ip=192.168.0.12 card=4111111111111111
+2024-03-15 08:58:56 ERROR user=@onlydomain.com action=delete ip=10.0.0.5
+2024-03-15 13:51:20 ERROR user=user@.com action=pay ip=192.168.0.12.1 card=4111-1111-1111-11111
+2024-03-15 08:39:06 WARN user=olga@company.com action=pay ip=203.0.113.42 card=4111-1111-1111-3781
+ERROR without timestamp user=x action=y ip=1.1.1.1
+2024-03-15 13:55:18 ERROR user=user@-domain.com action=pay ip=192.168.0. card=6011-0009-9013-9424
+2024-03-15 08:49:01 INFO user=anna123@corp.local action=update ip=127.0.0.1
+2024-03-15 10:50:17 WARN user=olga@company.com action=login
+2024-03-15 09:00:04 ERROR user=@onlydomain.com action=logout ip=10.0.0.5
+2024-03-15 09:13:06 ERROR user=user@domain. action=delete ip=127.0.0.1
+2024-03-15 12:43:20 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 13:20:27 INFO user=anna123@corp.local action=export ip=255.255.255.255
+2024-03-15 13:16:46 WARN user=user+tag@gmail.com action=view ip=255.255.255.255
+2024-03-15 09:55:19 ERROR user=petr.sidorov@yandex.ru action=pay ip=172.16.254.1 card=4111 1111 1111 1111
+2024-03-15 10:05:31 ERROR user=anna123@corp.local action=pay ip=10.1.2.3 card=XXXX-XXXX-XXXX-1111
+2024-03-15 09:59:17 ERROR user=olga@company.com action=pay ip=192.168.0.12 card=4111-1111-1111-111
+2024-03-15 09:10:33 ERROR user=user@domain..com action=update ip=1.1.1.1
+24-03-15 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 12:15:00 INFO user=x@y.z action=login ip=192.168.0.12 path=/api/v1/users
+2024-03-15 08:43:04 ERROR user=anna123@corp.local action=update ip=172.16.254.1
+2024-03-15 08:18:42 WARN user=olga@company.com action=view ip=192.168.0.12
+2024-03-15 09:26:42 WARN user=test_user@sub.domain.org action=retry ip=...
+2024-03-15 09:26:25 WARN user=anna123@corp.local action=retry ip=192.168.0.
+2024-03-15 08:48:44 ERROR user=ivan@mail.ru action=logout ip=8.8.4.4
+2024-03-15 13:50:29 ERROR user=double@@mail.ru action=pay ip=256.0.0.1 card=4111-1111-1111-1111-1111
+2024-03-15 11:18:20 INFO USER=x@y.z ACTION=login IP=0.0.0.0
+2024-03-15 08:14:44 INFO user=olga@company.com action=export ip=10.1.2.3
+ERROR without timestamp user=x action=y ip=1.1.1.1
+2024-03-15 12:15:17 INFO user=a.b@domain.co action=login ip=203.0.113.42 msg="quoted value"
+2024-03-15 08:21:32 INFO user=anna123@corp.local action=login ip=127.0.0.1 session=5187
+2024-03-15 08:15:01 WARN user=olga@company.com action=export ip=0.0.0.0
+2024-03-15 11:49:13 INFO user=ivan@mail.ru action=delete ip=10.1.2.3 msg=fail fail fail fail fail
+2024-03-15 09:55:53 ERROR user=a.b@domain.co action=pay ip=255.255.255.255 card=4111-1111-1111
+2024-03-15 10:54:15 DEBUG user=ivan@mail.ru
+2024-03-15 08:29:11 DEBUG user=test_user@sub.domain.org action=view ip=127.0.0.1
+2024-03-15 08:57:48 ERROR user=user@domain..com action=logout ip=255.255.255.255
+2024-03-15 08:15:35 WARN user=user+tag@gmail.com action=pay ip=203.0.113.42 card=6011-0009-9013-9424 session=4942
+2024-03-15 08:25:30 INFO user=a.b@domain.co action=export ip=172.16.254.1
+2024-03-15 12:19:32 INFO user=user+tag@gmail.com action=login ip=172.16.254.1 msg=ok;status=200
+2024-03-15 13:51:03 ERROR user=.start@mail.ru action=pay ip=1.2.3 card=4111 1111 1111 1111
+2024-03-15 09:26:59 WARN user=petr.sidorov@yandex.ru action=retry ip=...
+2024-03-15 11:20:36 INFO user = olga@company.com action = login ip = 8.8.4.4
+2024-03-15 10:27:37 ERROR user=.start@mail.ru action=pay ip=1.2.3.4.5 card=XXXX-XXXX-XXXX-1111
+2024-03-15 11:27:58 DEBUG action=export user=ivan@mail.ru ip=192.168.0.12 msg=ok
+2024-03-15 08:33:43 ERROR user=anna123@corp.local action=pay ip=0.0.0.0
+2024-03-15 09:38:36 WARN user=a.b@domain.co action=retry ip=1.2.3
+2024-03-15 13:27:49 DEBUG user=olga@company.com action=login ip=255.255.255.255
+2024-03-15 09:58:26 ERROR user=petr.sidorov@yandex.ru action=pay ip=0.0.0.0 card=4111-1111-1111-11111
+2024-03-15 09:02:37 ERROR user=spaces emma@mail.ru action=retry ip=255.255.255.255
+2024-03-15 09:06:01 ERROR user=double@@mail.ru action=export ip=8.8.8.8
+2024-03-15 08:39:23 DEBUG user=user+tag@gmail.com action=view ip=10.0.0.5
+2024-03-15 08:19:33 WARN user=anna123@corp.local action=delete ip=172.16.254.1 session=4906
+2024-03-15 09:59:00 ERROR user=petr.sidorov@yandex.ru action=pay ip=8.8.4.4 card=4111111111111111
+2024-03-15 08:06:31 INFO user=anna123@corp.local action=update ip=127.0.0.1
+2024-03-15 09:32:22 WARN user=a.b@domain.co action=retry ip=192.168.0.12.1
+2024-03-15 11:01:03 WARN
+2024-03-15 13:20:44 WARN user=petr.sidorov@yandex.ru action=login ip=203.0.113.42
+2024-03-15 08:11:03 WARN user=olga@company.com action=logout ip=255.255.255.255
+2024-03-15 10:03:32 ERROR user=anna123@corp.local action=pay ip=203.0.113.42 card=4111111111111111
+2024-03-15 13:25:33 WARN user=x@y.z action=login ip=10.1.2.3
+2024-03-15 10:01:50 ERROR user=test_user@sub.domain.org action=pay ip=172.16.254.1 card=4111111111111111
+2024-03-15 13:21:18 WARN user=olga@company.com action=update ip=127.0.0.1
+2024-03-15 08:20:07 DEBUG user=user+tag@gmail.com action=pay ip=172.16.254.1 session=6685
+2024-03-15 08:02:16 DEBUG user=test_user@sub.domain.org action=update ip=203.0.113.42
+2024-03-15 11:47:48 WARN user=user+tag@gmail.com action=delete ip=0.0.0.0 msg=fail fail fail fail fail
+2024-03-15 10:00:42 ERROR user=olga@company.com action=pay ip=8.8.4.4 card=XXXX-XXXX-XXXX-1111
+2024-03-15 08:49:52 DEBUG user=olga@company.com action=pay ip=192.168.0.12 session=2661
+2024-03-15 08:41:05 DEBUG user=test_user@sub.domain.org action=update ip=0.0.0.0 session=1047
+2024-03-15 10:02:58 ERROR user=ivan@mail.ru action=pay ip=255.255.255.255 card=4111111111111111
+15/03/2024 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 09:01:46 ERROR user=user@-domain.com action=pay ip=1.1.1.1
+2024-03-15 08:35:25 INFO user=x@y.z action=export ip=192.168.0.12
+2024-03-15 11:25:42 info user=x@y.z action=login ip=10.1.2.3
+2024-03-15 09:06:52 ERROR user=no-at-sign.ru action=logout ip=127.0.0.1
+2024.03.15 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:09:21 ERROR user=anna123@corp.local action=pay ip=10.1.2.3
+2024-03-15 13:42:16 ERROR user=user@-domain.com action=pay ip=256.0.0.1 card=4000-1234-5678-9010
+2024-03-15 09:33:30 WARN user=x@y.z action=retry ip=1.2.3
+2024-03-15 09:57:18 ERROR user=a.b@domain.co action=pay ip=255.255.255.255 card=4111-1111-1111-abcd
+2024-03-15 08:48:27 ERROR user=petr.sidorov@yandex.ru action=export ip=1.1.1.1
+2024-02-29 23:59:59 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 12:18:41 INFO user=petr.sidorov@yandex.ru action=login ip=8.8.4.4 msg=a=b&c=d
+2024-03-15 13:12:31 DEBUG user=anna123@corp.local action=logout ip=10.1.2.3
+2024-03-15 10:55:23 INFO user=ivan@mail.ru
+2024-03-15 12:17:16 INFO user=user+tag@gmail.com action=login ip=1.1.1.1 msg="quoted value"
+2024-03-15 08:26:55 ERROR user=anna123@corp.local action=view ip=8.8.4.4
+2024-03-15 12:20:23 INFO user=test_user@sub.domain.org action=login ip=8.8.8.8 msg=a=b&c=d
+2024-03-15 11:26:50 info user=x@y.z action=login ip=8.8.4.4
+2024-03-15 10:03:49 ERROR user=a.b@domain.co action=pay ip=10.0.0.5 card=4111-1111-1111-abcd
+2024-03-15 09:41:43 WARN user=x@y.z action=retry ip=1.2.3
+2024-03-15 08:12:28 INFO user=petr.sidorov@yandex.ru action=login ip=192.168.0.12
+2024-3-5 9:1:2 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 13:31:13 WARN user=user+tag@gmail.com action=login ip=1.1.1.1
+2024-03-15 12:43:20 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 09:03:28 ERROR user=.start@mail.ru action=login ip=8.8.4.4
+	
+2024-03-15 10:53:58 WARN user=user+tag@gmail.com action=login ip=255.255.255.255 extra=foo note=bar
+NULL
+2024-03-15 11:27:24 info user=test_user@sub.domain.org action=login ip=8.8.4.4
+2024-03-15 11:53:11 INFO user=test_user@sub.domain.org action=login ip=192.168.0.12 msg=retry retry retry please please
+2024-03-15 11:24:34 info user=a.b@domain.co action=login ip=10.1.2.3
+2024-03-15 09:28:41 WARN user=anna123@corp.local action=retry ip=300.300.300.300
+2024-03-15 08:36:33 ERROR user=user+tag@gmail.com action=retry ip=8.8.4.4
+2024-03-15 09:06:18 ERROR user=double@@mail.ru action=export ip=127.0.0.1
+2024-03-15 10:27:54 ERROR user=user@.com action=pay ip=192.168.0.12:8080 card=4111-1111-1111-abcd
+2024-03-15 09:11:41 ERROR user=double@@mail.ru action=pay ip=1.1.1.1
+2024-3-5 9:1:2 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:45:37 INFO user=olga@company.com action=view ip=1.1.1.1
+2024-03-15 08:24:56 INFO user=a.b@domain.co action=logout ip=192.168.0.12 session=6909
+2024-03-15 10:27:03 ERROR user=end.@mail.ru action=pay ip=1.2.3.4.5 card=4111-1111-1111-11111
+2024-03-15 08:22:57 ERROR user=anna123@corp.local action=pay ip=192.168.0.12 card=6011-0009-9013-9424
+2024-03-15 10:22:14 ERROR user=double@@mail.ru action=pay ip=192.168.0.12:8080 card=3400-0000-0000-009
+2024-03-15 08:32:18 ERROR user=user+tag@gmail.com action=view ip=8.8.4.4
+2024-03-15 08:35:59 DEBUG user=petr.sidorov@yandex.ru action=logout ip=8.8.4.4 session=1647
+2024-03-15 08:34:34 ERROR user=x@y.z action=view ip=1.1.1.1 session=9247
+2024-03-15 13:21:52 INFO user=x@y.z action=update ip=0.0.0.0
+2024-03-15 11:20:02 DEBUG action=export user=anna123@corp.local ip=203.0.113.42 msg=ok
+2024-03-15 14:24:00Z INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 11:19:28 INFO card=6011-0009-9013-9424 user=x@y.z action=pay ip=192.168.0.12
+2024-03-15 09:02:54 ERROR user=user@domain. action=logout ip=127.0.0.1
+2024-03-15 08:31:44 INFO user=petr.sidorov@yandex.ru action=view ip=203.0.113.42
+2024-03-15 08:07:39 ERROR user=test_user@sub.domain.org action=retry ip=8.8.4.4
+2024-03-15 08:02:50 ERROR user=x@y.z action=update ip=203.0.113.42
+2024-03-15 09:01:29 ERROR user=user name@mail.ru action=retry ip=8.8.4.4
+this is not a log line at all
+2024-03-15 08:27:46 INFO user=olga@company.com action=pay ip=172.16.254.1 session=8519
+2024-03-15 08:50:26 ERROR user=test_user@sub.domain.org action=view ip=255.255.255.255
+2024-03-15 08:09:04 ERROR user=user+tag@gmail.com action=logout ip=172.16.254.1
+2024-03-15 09:41:26 WARN user=x@y.z action=retry ip=256.0.0.1
+2024-03-15 10:27:20 ERROR user=user@domain. action=pay ip=abc.def.ghi.jkl card=4111 1111 1111 1111
+2024-03-15 13:49:55 ERROR user=no-at-sign.ru action=pay ip=192.168.0.12.1 card=4111-1111-1111-abcd
+2024-03-15 08:04:32 DEBUG user=test_user@sub.domain.org action=update ip=192.168.0.12
+2024-03-15 13:19:53 INFO user=a.b@domain.co action=view ip=1.1.1.1
+2024-03-15 08:39:57 WARN user=petr.sidorov@yandex.ru action=delete ip=192.168.0.12 session=3325
+2024-03-15 08:56:57 ERROR user=user@ action=delete ip=255.255.255.255
+2024-03-15 08:34:17 ERROR user=a.b@domain.co action=delete ip=172.16.254.1
+2024-03-15 10:23:22 ERROR user=spaces emma@mail.ru action=pay ip=127.0.0.01 card=4111111111111111
+2024-03-15 13:19:36 DEBUG user=ivan@mail.ru action=logout ip=127.0.0.1
+2024-03-15 09:40:52 WARN user=ivan@mail.ru action=retry ip=192.168.0.12.1
+2024-03-15 08:01:42 WARN user=user+tag@gmail.com action=retry ip=10.0.0.5
+2024-03-15 12:43:20 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 11:27:41 INFO ip=8.8.4.4 action=view user=petr.sidorov@yandex.ru
+2024-03-15 09:57:01 ERROR user=a.b@domain.co action=pay ip=1.1.1.1 card=XXXX-XXXX-XXXX-1111
+2024-03-15 09:13:23 ERROR user=user@-domain.com action=view ip=10.0.0.5
+2024-03-15 09:28:07 WARN user=ivan@mail.ru action=retry ip=192.168.0.
+2024-03-15 09:32:39 WARN user=user+tag@gmail.com action=retry ip=01.02.03.04
+2024-03-15 11:00:29 WARN user=petr.sidorov@yandex.ru action=login ip=0.0.0.0 extra=foo note=bar
+2024-03-15 10:59:21 WARN action=login ip=172.16.254.1
+2024-03-15 08:14:27 WARN user=olga@company.com action=login ip=8.8.8.8
+2024-03-15 08:03:58 ERROR user=x@y.z action=logout ip=10.0.0.5
+2024-03-15 10:52:16 WARN action=login ip=255.255.255.255
+2024-03-15 10:56:48 DEBUG user=ivan@mail.ru action=login ip=8.8.4.4 extra=foo note=bar
+2024-03-15 09:32:05 WARN user=anna123@corp.local action=retry ip=192.168.-1.1
+2024-03-15 11:50:04 INFO user=test_user@sub.domain.org action=retry ip=8.8.4.4 msg=retry retry retry please please
+2024-03-15 12:18:24 INFO user=petr.sidorov@yandex.ru action=login ip=10.0.0.5 path=/api/v1/users
+2024-03-15 08:17:34 ERROR user=ivan@mail.ru action=delete ip=0.0.0.0
+2024-03-15 10:52:33 DEBUG user=a.b@domain.co action=login ip=8.8.4.4 extra=foo note=bar
+2024-03-15 13:41:42 ERROR user=user@.com action=pay ip=01.02.03.04 card=3400-0000-0000-009
+2024-03-15 08:28:37 ERROR user=user+tag@gmail.com action=update ip=127.0.0.1
+2024-03-15 12:17:50 INFO user=anna123@corp.local action=login ip=0.0.0.0 ua=Mozilla/5.0
+2024-03-15 08:20:41 DEBUG user=a.b@domain.co action=export ip=8.8.8.8 session=8080
+2024-03-15 09:31:31 WARN user=anna123@corp.local action=retry ip=192.168.0.
+2024-03-15 13:25:50 ERROR user=test_user@sub.domain.org action=login ip=255.255.255.255
+[2024-03-15 14:24:00] INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:38:32 ERROR user=a.b@domain.co action=export ip=192.168.0.12
+2024-03-15 09:39:10 WARN user=test_user@sub.domain.org action=retry ip=[192.168.0.12]
+2024-03-15 10:28:28 ERROR user=user@ action=pay ip=300.300.300.300 card=4111-1111-1111
+2024-03-15 11:49:47 INFO user=a.b@domain.co action=export ip=1.1.1.1 msg=timeout timeout timeout timeout
+NULL
+2024-03-15 08:28:20 INFO user=a.b@domain.co action=logout ip=1.1.1.1 session=9586
+2024-03-15 08:04:15 DEBUG user=olga@company.com action=login ip=172.16.254.1
+2024-03-15 10:05:14 ERROR user=x@y.z action=pay ip=127.0.0.1 card=0000-0000-0000-0000
+2024-03-15 08:01:59 WARN user=olga@company.com action=login ip=1.1.1.1
+2024-03-15 11:19:11 DEBUG action=export user=test_user@sub.domain.org ip=8.8.4.4 msg=ok
+15/03/2024 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 09:03:11 ERROR user=user@ action=pay ip=192.168.0.12
+2024-03-15 14:01:49 ERROR user=.start@mail.ru action=pay ip=999.1.1.1 card=4111-1111-1111-11111
+2024-03-15 08:00:34 DEBUG user=a.b@domain.co action=login ip=10.0.0.5
+2024-03-32 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:57:22 DEBUG user=a.b@domain.co action=login ip=8.8.4.4 extra=foo note=bar
+2024-03-15 10:26:46 ERROR user=user name@mail.ru action=pay ip=192.168.0.12:8080 card=XXXX-XXXX-XXXX-1111
+2024-03-15 08:44:29 WARN user=user+tag@gmail.com action=retry ip=1.1.1.1
+2024-03-15 08:00:17 INFO user=olga@company.com action=update ip=1.1.1.1
+2024-03-15 11:25:08 INFO ip=172.16.254.1 action=view user=olga@company.com
+2024-03-15 09:05:10 ERROR user=кириллица@mail.ru action=update ip=203.0.113.42
+2024-03-15 13:17:20 WARN user=test_user@sub.domain.org action=logout ip=192.168.0.12
+2024-03-15 13:56:43 ERROR user=user@ action=pay ip=1.2.3 card=4111-1111-1111
+2024-03-15 14:00:60 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:00:25 ERROR user=olga@company.com action=pay ip=192.168.0.12 card=4111111111111111
+2024-03-15 13:30:22 INFO user=petr.sidorov@yandex.ru action=login ip=8.8.8.8
+2024-00-10 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-32 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 13:33:12 INFO user=test_user@sub.domain.org action=delete ip=1.1.1.1
+2024-03-15 09:55:36 ERROR user=a.b@domain.co action=pay ip=127.0.0.1 card=4111-1111-1111
+	
+2024-03-15 09:59:34 ERROR user=anna123@corp.local action=pay ip=8.8.8.8 card=3400-0000-0000-009
+2024-03-15 08:08:30 WARN user=anna123@corp.local action=view ip=203.0.113.42
+2024-03-15 08:26:21 DEBUG user=a.b@domain.co action=pay ip=8.8.4.4 card=4000-1234-5678-9010
+2024-03-15 09:05:27 ERROR user=.start@mail.ru action=export ip=127.0.0.1
+2024-03-15 11:21:10 INFO USER=test_user@sub.domain.org ACTION=login IP=192.168.0.12
+2024-03-15 09:30:06 WARN user=anna123@corp.local action=retry ip=999.1.1.1
+2024-03-15 08:30:02 INFO user=user+tag@gmail.com action=view ip=0.0.0.0
+2024-03-15 09:30:57 WARN user=ivan@mail.ru action=retry ip=999.1.1.1
+2024-03-15 08:41:56 DEBUG user=test_user@sub.domain.org action=logout ip=192.168.0.12 session=9872
+2024-03-15 11:24:17  INFO  user=user+tag@gmail.com  action=login  ip=8.8.8.8
+2024-03-15 08:22:40 ERROR user=ivan@mail.ru action=view ip=0.0.0.0
+2024-03-15 09:59:51 ERROR user=olga@company.com action=pay ip=255.255.255.255 card=4111-1111-1111-111
+2024-03-15 11:20:53 DEBUG action=export user=petr.sidorov@yandex.ru ip=172.16.254.1 msg=ok
+2024-03-15 09:30:40 WARN user=a.b@domain.co action=retry ip=01.02.03.04
+2024-03-15 11:18:54 INFO user = test_user@sub.domain.org action = login ip = 8.8.4.4
+2024-03-15 10:23:56 ERROR user=user@.com action=pay ip=192.168.0.12.1 card=3400-0000-0000-009
+2024-03-15 13:32:21 ERROR user=olga@company.com action=logout ip=10.0.0.5
+2024-03-15 10:03:15 ERROR user=test_user@sub.domain.org action=pay ip=10.1.2.3 card=4111-1111-1111-111
+2024-03-15 08:15:52 ERROR user=test_user@sub.domain.org action=logout ip=8.8.8.8
+2024-03-15 13:15:55 INFO user=anna123@corp.local action=view ip=10.1.2.3
+2024-03-15 09:31:14 WARN user=ivan@mail.ru action=retry ip=999.1.1.1
+2024-03-15 11:48:39 ERROR user=a.b@domain.co action=export ip=10.0.0.5 msg=Напишите функцию функцию которая будет будет будет удалять повторы
+2024-03-15 08:10:46 ERROR user=ivan@mail.ru action=export ip=8.8.4.4
+2024-03-15 08:58:39 ERROR user=bad..email@ action=login ip=10.1.2.3
+[2024-03-15 14:24:00] INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:58:05 ERROR user=end.@mail.ru action=update ip=203.0.113.42
+2024-03-15 08:24:39 INFO user=test_user@sub.domain.org action=retry ip=10.1.2.3
+2024-03-15 13:55:01 ERROR user=user@domain..com action=pay ip=256.0.0.1 card=4111-1111-1111
+2024-03-15 10:51:59 DEBUG
+2024-03-15 09:33:47 WARN user=petr.sidorov@yandex.ru action=retry ip=999.1.1.1
+2024-03-15 10:24:13 ERROR user=.start@mail.ru action=pay ip=1.2.3 card=4111-1111-1111-1111-1111
+2024-03-15 08:49:35 ERROR user=anna123@corp.local action=delete ip=8.8.4.4 session=6115
+2024-03-15 13:17:37 ERROR user=x@y.z action=export ip=10.0.0.5
+2024-03-15 09:58:43 ERROR user=ivan@mail.ru action=pay ip=192.168.0.12 card=4111111111111111
+---
+2024-03-15 09:09:25 ERROR user=user name@mail.ru action=logout ip=8.8.8.8
+2024-03-15 13:27:32 DEBUG user=ivan@mail.ru action=update ip=0.0.0.0
+2024-03-15 13:44:32 ERROR user=no-at-sign.ru action=pay ip=999.1.1.1 card=4000-1234-5678-9010
+2024-03-15 09:06:35 ERROR user=user@-domain.com action=export ip=255.255.255.255
+2024-03-15 08:27:12 INFO user=petr.sidorov@yandex.ru action=login ip=203.0.113.42
+2024-03-15 08:22:06 WARN user=test_user@sub.domain.org action=view ip=1.1.1.1
+2024-03-15 09:40:01 WARN user=user+tag@gmail.com action=retry ip=127.0.0.01
+2024-03-15 09:38:19 WARN user=olga@company.com action=retry ip=999.1.1.1
+2024-03-15 13:57:51 ERROR user=user@domain..com action=pay ip=[192.168.0.12] card=4111-1111-1111-abcd
+2024-03-15 13:57:17 ERROR user=end.@mail.ru action=pay ip=01.02.03.04 card=4111-1111-1111-abcd
+2024-03-15 13:24:25 WARN user=anna123@corp.local action=delete ip=172.16.254.1
+2024-03-15 13:30:05 INFO user=user+tag@gmail.com action=logout ip=203.0.113.42
+2024-03-15 09:04:53 ERROR user=user@ action=delete ip=255.255.255.255
+2024-03-15 08:14:10 DEBUG user=olga@company.com action=login ip=0.0.0.0
+2024-03-15 08:33:09 WARN user=anna123@corp.local action=export ip=255.255.255.255
+2024-03-15 09:32:56 WARN user=petr.sidorov@yandex.ru action=retry ip=1.2.3.4.5
+2024-03-15 08:09:38 WARN user=a.b@domain.co action=pay ip=255.255.255.255 card=4111-1111-1111-1111
+2024-03-15 11:25:59 INFO ip=203.0.113.42 action=view user=x@y.z
+2024-03-15 11:51:29 ERROR user=user+tag@gmail.com action=retry ip=255.255.255.255 msg=error error error timeout
+2024-03-15 09:11:07 ERROR user=user@domain. action=view ip=203.0.113.42
+2024-03-15 08:50:43 ERROR user=test_user@sub.domain.org action=login ip=172.16.254.1
+2024-03-15 10:21:57 ERROR user=@onlydomain.com action=pay ip=256.0.0.1 card=4111-1111-1111-111
+2024-03-15 24:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 08:05:40 ERROR user=test_user@sub.domain.org action=view ip=255.255.255.255
+2024-03-15 08:57:31 ERROR user=@onlydomain.com action=delete ip=10.0.0.5
+2024-03-15 09:12:49 ERROR user=кириллица@mail.ru action=view ip=8.8.4.4
+2024-03-15 09:02:03 ERROR user=spaces emma@mail.ru action=pay ip=203.0.113.42
+2024-03-15 09:08:00 ERROR user=кириллица@mail.ru action=retry ip=10.0.0.5
+2024-03-15 10:23:05 ERROR user=spaces emma@mail.ru action=pay ip=300.300.300.300 card=4111-1111-1111-111
+2024-03-15 10:29:19 ERROR user=user@ action=pay ip=192.168.0. card=4111-1111-1111-111
+2024-03-15 11:47:31 ERROR user=anna123@corp.local action=export ip=10.1.2.3 msg=word word word word word word word word word word end
+[2024-03-15 14:24:00] INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 09:31:48 WARN user=olga@company.com action=retry ip=192.168.-1.1
+2023-02-29 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 13:11:40 DEBUG user=a.b@domain.co action=export ip=172.16.254.1
+2024-02-29 23:59:59 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 08:45:03 DEBUG user=test_user@sub.domain.org action=retry ip=8.8.8.8 session=1554
+2024-03-15 10:55:57 WARN user=anna123@corp.local action=login ip=10.0.0.5 extra=foo note=bar
+2024-03-15 12:19:15 INFO user=user+tag@gmail.com action=login ip=1.1.1.1 path=/api/v1/users
+2024-03-15 12:19:49 INFO user=anna123@corp.local action=login ip=1.1.1.1 msg=ok;status=200
+2024-03-15 09:28:58 WARN user=ivan@mail.ru action=retry ip=300.300.300.300
+2024-03-15 11:48:56 WARN user=anna123@corp.local action=view ip=127.0.0.1 msg=word word word word word word word word word word end
+2024-03-15 09:38:53 WARN user=test_user@sub.domain.org action=retry ip=1.2.3.4.5
+2024-03-15 08:37:07 WARN user=a.b@domain.co action=delete ip=172.16.254.1
+2024-03-15 08:06:48 DEBUG user=test_user@sub.domain.org action=delete ip=255.255.255.255 session=7560
+2024-03-15 13:51:54 ERROR user=user@.com action=pay ip=abc.def.ghi.jkl card=5500-0000-0000-0004
+2024-03-15 08:01:25 DEBUG user=ivan@mail.ru action=retry ip=172.16.254.1 session=2929
+2024-03-15 11:51:12 ERROR user=petr.sidorov@yandex.ru action=view ip=10.1.2.3 msg=retry retry retry please please
+2024-03-15 11:48:22 DEBUG user=test_user@sub.domain.org action=update ip=10.1.2.3 msg=Напишите функцию функцию которая будет будет будет удалять повторы
+2024-03-15 09:07:26 ERROR user=no-at-sign.ru action=export ip=10.1.2.3
+2024-03-15 08:29:28 INFO user=anna123@corp.local action=logout ip=0.0.0.0
+   
+2024-03-15 13:24:08 WARN user=x@y.z action=view ip=10.0.0.5
+2024-03-15 11:22:18 INFO ip=10.0.0.5 action=view user=a.b@domain.co
+2024-03-15 09:56:27 ERROR user=x@y.z action=pay ip=203.0.113.42 card=3400-0000-0000-009
+2024-03-15 11:22:52  INFO  user=olga@company.com  action=login  ip=1.1.1.1
+2024-03-15 08:46:45 WARN user=anna123@corp.local action=view ip=172.16.254.1
+2024-03-15 08:47:53 ERROR user=x@y.z action=update ip=192.168.0.12
+2024-03-15 13:41:25 ERROR user=кириллица@mail.ru action=pay ip=192.168.0.12.1 card=4111 1111 1111 1111
+24-03-15 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:12:45 WARN user=petr.sidorov@yandex.ru action=delete ip=8.8.8.8 session=4486
+2024-03-15 08:33:26 ERROR user=a.b@domain.co action=logout ip=127.0.0.1
+2024-03-15 09:41:09 WARN user=test_user@sub.domain.org action=retry ip=300.300.300.300
+2024-03-15 12:43:20 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+
+2024-03-15 09:08:51 ERROR user=spaces emma@mail.ru action=retry ip=192.168.0.12
+2024-03-15 08:20:58 ERROR user=x@y.z action=delete ip=10.1.2.3
+2024-03-15 11:00:12 INFO user=a.b@domain.co ip=203.0.113.42
+2024-03-15 08:43:55 DEBUG user=x@y.z action=delete ip=172.16.254.1
+2024-03-15 13:20:10 INFO user=x@y.z action=update ip=0.0.0.0
+2024-03-15 08:26:38 WARN user=user+tag@gmail.com action=login ip=1.1.1.1 session=3415
+garbage <<<>>>
+2024-03-15 09:09:59 ERROR user=user@-domain.com action=retry ip=8.8.4.4
+2024-03-15 09:00:38 ERROR user=user@.com action=retry ip=192.168.0.12
+2024-03-15 14:00:07 ERROR user=no-at-sign.ru action=pay ip=... card=4111-1111-1111-abcd
+2024-03-15 11:23:43 info user=petr.sidorov@yandex.ru action=login ip=1.1.1.1
+2024-03-15 10:51:42 WARN action=login ip=172.16.254.1
+2024-03-15 10:57:39 DEBUG user=olga@company.com ip=1.1.1.1
+2024-03-15 08:00:51 DEBUG user=a.b@domain.co action=logout ip=10.1.2.3 session=3028
+2024-03-15 08:46:28 ERROR user=olga@company.com action=view ip=172.16.254.1
+2024-03-15 14:00:60 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 09:01:12 ERROR user=end.@mail.ru action=delete ip=10.0.0.5
+2024-03-15 09:54:28 ERROR user=test_user@sub.domain.org action=pay ip=8.8.4.4 card=3400-0000-0000-009
+2024-03-15 09:37:28 WARN user=ivan@mail.ru action=retry ip=192.168.0.12.1
+2024-03-15 09:33:13 WARN user=anna123@corp.local action=retry ip=01.02.03.04
+2024-03-15 09:02:20 ERROR user=@onlydomain.com action=pay ip=192.168.0.12
+15/03/2024 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:42:13 ERROR user=x@y.z action=pay ip=0.0.0.0
+2024-03-15 08:56:40 ERROR user=bad..email@ action=update ip=8.8.4.4
+2024-03-15 10:28:45 ERROR user=end.@mail.ru action=pay ip=192.168.-1.1 card=4111-1111-1111
+2024-03-15 13:15:21 DEBUG user=anna123@corp.local action=logout ip=0.0.0.0
+2024-03-15 11:51:46 ERROR user=ivan@mail.ru action=delete ip=1.1.1.1 msg=retry retry retry please please
+2024-03-15 11:50:21 INFO user=a.b@domain.co action=login ip=8.8.4.4 msg=retry retry retry please please
+2024-03-15 10:53:41 WARN user=test_user@sub.domain.org
+2024-03-15 08:32:01 DEBUG user=petr.sidorov@yandex.ru action=retry ip=203.0.113.42
+2024-03-15 09:38:02 WARN user=petr.sidorov@yandex.ru action=retry ip=999.1.1.1
+2024-03-15 11:21:44  INFO  user=anna123@corp.local  action=login  ip=8.8.4.4
+2024-03-15 08:43:21 ERROR user=ivan@mail.ru action=view ip=0.0.0.0
+2024-03-15 10:59:04 ERROR
+2024-03-15 14:60:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 08:34:00 DEBUG user=ivan@mail.ru action=delete ip=255.255.255.255
+2024-03-15 11:19:45 DEBUG action=export user=a.b@domain.co ip=8.8.4.4 msg=ok
+2024-03-15 08:01:08 DEBUG user=a.b@domain.co action=login ip=1.1.1.1 session=4622
+2024-03-15 08:29:45 WARN user=anna123@corp.local action=delete ip=10.0.0.5
+2024-03-15 11:20:19 info user=test_user@sub.domain.org action=login ip=1.1.1.1
+2024-03-15 08:36:50 INFO user=test_user@sub.domain.org action=logout ip=10.0.0.5
+2024-03-15 09:34:55 WARN user=petr.sidorov@yandex.ru action=retry ip=[192.168.0.12]
+2024-03-15 12:18:07 INFO user=x@y.z action=login ip=203.0.113.42 msg="quoted value"
+2024-03-15 08:27:29 DEBUG user=olga@company.com action=pay ip=8.8.4.4 card=4000-1234-5678-9010
+2024-00-10 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 09:37:11 WARN user=ivan@mail.ru action=retry ip=999.1.1.1
+2024-03-15 09:04:19 ERROR user=user@domain..com action=view ip=8.8.4.4
+2024-03-15 08:40:31 WARN user=anna123@corp.local action=logout ip=10.0.0.5
+2024-03-15 10:25:55 ERROR user=@onlydomain.com action=pay ip=[192.168.0.12] card=0000-0000-0000-0000
+2024-03-15 10:21:40 ERROR user=user name@mail.ru action=pay ip=1.2.3.4.5 card=0000-0000-0000-0000
+2024-03-15 11:21:27 INFO ip=127.0.0.1 action=view user=anna123@corp.local
+2024-03-15 08:44:46 INFO user=anna123@corp.local action=export ip=0.0.0.0
+2024-03-15 13:56:26 ERROR user=double@@mail.ru action=pay ip=1.2.3 card=4111-1111-1111-abcd
+2024-03-15 14:60:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 13:58:59 ERROR user=user@ action=pay ip=01.02.03.04 card=6011-0009-9013-9424
+2024-03-15 10:26:29 ERROR user=@onlydomain.com action=pay ip=abc.def.ghi.jkl card=0000-0000-0000-0000
+2024-03-15 13:47:39 ERROR user=bad..email@ action=pay ip=[192.168.0.12] card=4111-1111-1111-1111
+2024-03-15 10:56:14 DEBUG
+2024-03-15 13:32:38 WARN user=a.b@domain.co action=pay ip=127.0.0.1
+2024-03-15 08:17:51 INFO user=olga@company.com action=logout ip=8.8.8.8 session=5455
+2024-03-15 13:47:05 ERROR user=user@domain. action=pay ip=1.2.3.4.5 card=0000-0000-0000-0000
+2024-03-15 10:24:47 ERROR user=@onlydomain.com action=pay ip=192.168.-1.1 card=4111-1111-1111-abcd
+2024-03-15 08:19:16 ERROR user=olga@company.com action=pay ip=10.0.0.5
+2024-03-15 08:45:54 WARN user=test_user@sub.domain.org action=export ip=203.0.113.42
+2024-03-15 08:06:14 WARN user=user+tag@gmail.com action=view ip=192.168.0.12
+2024-03-15 08:16:26 DEBUG user=x@y.z action=pay ip=10.0.0.5 session=4665
+2024-03-15 09:53:54 ERROR user=olga@company.com action=pay ip=0.0.0.0 card=XXXX-XXXX-XXXX-1111
+2024-03-15 09:08:17 ERROR user=user name@mail.ru action=update ip=10.1.2.3
+2024-03-15 09:39:27 WARN user=petr.sidorov@yandex.ru action=retry ip=192.168.-1.1
+2024-03-15 09:35:12 WARN user=user+tag@gmail.com action=retry ip=192.168.0.12.1
+2024-02-29 23:59:59 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:02:41 ERROR user=x@y.z action=pay ip=172.16.254.1 card=4111-1111-1111-abcd
+2024-03-15 10:02:07 ERROR user=anna123@corp.local action=pay ip=172.16.254.1 card=XXXX-XXXX-XXXX-1111
+2024-03-15 09:26:08 WARN user=test_user@sub.domain.org action=retry ip=300.300.300.300
+2024-03-15 08:47:02 WARN user=petr.sidorov@yandex.ru action=pay ip=8.8.8.8 card=4111-1111-1111-3084
+2024-03-15 13:32:04 WARN user=ivan@mail.ru action=view ip=10.0.0.5
+2024-03-15 08:03:24 INFO user=petr.sidorov@yandex.ru action=export ip=255.255.255.255
+2024-03-15 10:58:30 INFO action=login ip=10.0.0.5
+2024-03-15 10:54:49 WARN
+2024-03-15 13:43:58 ERROR user=user@-domain.com action=pay ip=256.0.0.1 card=6011-0009-9013-9424
+2024-03-15T14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 09:00:21 ERROR user=spaces emma@mail.ru action=export ip=8.8.8.8
+2024-03-15 13:14:30 WARN user=a.b@domain.co action=pay ip=10.0.0.5
+2024-03-15 10:04:57 ERROR user=anna123@corp.local action=pay ip=203.0.113.42 card=4111-1111-1111-111
+2024-03-15 09:27:16 WARN user=anna123@corp.local action=retry ip=192.168.0.12:8080
+2024-03-15 08:08:47 INFO user=a.b@domain.co action=update ip=127.0.0.1
+2024-03-15 09:58:09 ERROR user=olga@company.com action=pay ip=10.0.0.5 card=4111-1111-1111-abcd
+2024-03-15 12:16:25 INFO user=ivan@mail.ru action=login ip=192.168.0.12 msg=ok;status=200
+2024-03-15 12:18:58 INFO user=x@y.z action=login ip=255.255.255.255 msg=a=b&c=d
+2024-03-15 09:56:10 ERROR user=a.b@domain.co action=pay ip=255.255.255.255 card=3400-0000-0000-009
+2024-03-15 13:13:39 DEBUG user=x@y.z action=logout ip=10.1.2.3
+2024-03-15 11:52:37 DEBUG user=petr.sidorov@yandex.ru action=export ip=255.255.255.255 msg=word word word word word word word word word word end
+2024-03-15 10:50:00 ERROR user=user+tag@gmail.com ip=255.255.255.255
+	
+2024-03-15 09:04:02 ERROR user=spaces emma@mail.ru action=export ip=10.1.2.3
+2024-03-15 10:55:40 WARN user=petr.sidorov@yandex.ru action=login
+2024-03-15 09:09:42 ERROR user=@onlydomain.com action=export ip=172.16.254.1
+2024-03-15 13:14:47 ERROR user=anna123@corp.local action=update ip=255.255.255.255
+2024-03-15 11:50:55 INFO user=test_user@sub.domain.org action=logout ip=8.8.4.4 msg=error error error timeout
+2024-03-15 13:22:26 ERROR user=a.b@domain.co action=login ip=127.0.0.1
+
+2024-03-15 08:25:13 INFO user=olga@company.com action=delete ip=203.0.113.42
+2024-03-15 09:27:33 WARN user=olga@company.com action=retry ip=abc.def.ghi.jkl
+2024-03-15 09:36:20 WARN user=x@y.z action=retry ip=01.02.03.04
+2024-03-15 09:40:35 WARN user=x@y.z action=retry ip=300.300.300.300
+2024-03-15 13:17:03 DEBUG user=petr.sidorov@yandex.ru action=view ip=192.168.0.12
+2024-03-15 11:18:37 INFO USER=a.b@domain.co ACTION=login IP=172.16.254.1
+2024-03-15 09:53:20 ERROR user=a.b@domain.co action=pay ip=10.0.0.5 card=XXXX-XXXX-XXXX-1111
+2024-03-15 08:37:58 DEBUG user=a.b@domain.co action=pay ip=192.168.0.12
+2024-3-5 9:1:2 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:35:42 INFO user=x@y.z action=export ip=8.8.8.8
+2024-03-15 11:46:40 INFO user=anna123@corp.local action=logout ip=10.1.2.3 msg=fail fail fail fail fail
+2024-03-15 08:42:47 INFO user=ivan@mail.ru action=view ip=8.8.8.8
+24-03-15 14:24:00 INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 12:15:34 INFO user=ivan@mail.ru action=login ip=0.0.0.0 msg="quoted value"
+2024-03-15 08:24:22 WARN user=x@y.z action=retry ip=172.16.254.1 session=9404
+2024-03-15 09:34:38 WARN user=olga@company.com action=retry ip=256.0.0.1
+2024-03-15 14:24:00Z INFO user=ivan@mail.ru action=login ip=192.168.0.12
+2024-03-15 08:17:17 DEBUG user=ivan@mail.ru action=update ip=10.1.2.3
+2024-03-15 08:34:51 WARN user=a.b@domain.co action=logout ip=172.16.254.1
+2024-03-15 08:48:10 WARN user=ivan@mail.ru action=pay ip=1.1.1.1
+2024-03-15 10:24:30 ERROR user=кириллица@mail.ru action=pay ip=1.2.3.4.5 card=0000-0000-0000-0000
+2024-03-15 09:56:44 ERROR user=ivan@mail.ru action=pay ip=192.168.0.12 card=4111-1111-1111-1111-1111
+2024-03-15 08:32:35 DEBUG user=a.b@domain.co action=view ip=203.0.113.42 session=3648
+2024-03-15 09:40:18 WARN user=ivan@mail.ru action=retry ip=300.300.300.300
+2024-03-15 08:11:20 ERROR user=petr.sidorov@yandex.ru action=delete ip=8.8.4.4 session=7485
+2024-03-15 09:25:34 WARN user=x@y.z action=retry ip=192.168.-1.1
+2024-03-15 11:26:33 INFO card=6011-0009-9013-9424 user=ivan@mail.ru action=pay ip=127.0.0.1
+2024-03-15 08:03:41 ERROR user=olga@company.com action=update ip=0.0.0.0
+2024-03-15 24:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 08:35:08 INFO user=x@y.z action=delete ip=172.16.254.1 session=7966
+2024-03-15 09:29:32 WARN user=petr.sidorov@yandex.ru action=retry ip=192.168.0.
+2024-03-15 08:28:54 DEBUG user=anna123@corp.local action=pay ip=203.0.113.42 card=4000-1234-5678-9010
+2024-03-15 08:10:12 ERROR user=anna123@corp.local action=export ip=0.0.0.0 session=2673
+2024-03-32 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 09:36:03 WARN user=anna123@corp.local action=retry ip=01.02.03.04
+2024-03-15 09:34:04 WARN user=a.b@domain.co action=retry ip=300.300.300.300
+2024-03-15 08:09:55 WARN user=user+tag@gmail.com action=export ip=172.16.254.1
+2024-03-15 08:11:37 WARN user=x@y.z action=delete ip=10.0.0.5 session=3081
+2024-03-15 08:13:19 WARN user=x@y.z action=delete ip=10.1.2.3
+2024-03-15 11:50:38 DEBUG user=petr.sidorov@yandex.ru action=logout ip=8.8.4.4 msg=connection connection lost lost lost
+2024-03-15 10:58:47 DEBUG user=anna123@corp.local
+2024-03-15 11:22:35 INFO user = user+tag@gmail.com action = login ip = 172.16.254.1
+2024-03-15 08:40:14 WARN user=test_user@sub.domain.org action=login ip=192.168.0.12
+2024-03-15 09:10:50 ERROR user=user@-domain.com action=view ip=127.0.0.1
+2024-03-15 08:05:57 INFO user=test_user@sub.domain.org action=pay ip=127.0.0.1 card=5500-0000-0000-0004 session=3987
+---
+2024-03-15 09:03:45 ERROR user=user@domain..com action=update ip=10.0.0.5
+2024-03-15 11:26:16 INFO card=4000-1234-5678-9010 user=x@y.z action=pay ip=8.8.8.8
+2024-03-15 14:01:15 ERROR user=double@@mail.ru action=pay ip=300.300.300.300 card=4111-1111-1111-11111
+2024-03-15 08:19:50 INFO user=olga@company.com action=retry ip=172.16.254.1 session=6111
+2024-03-15 08:59:47 ERROR user=user@.com action=retry ip=10.1.2.3
+Mar 15 2024 14:24:00 INFO user=olga@company.com action=logout ip=10.0.0.5
+2024-03-15 08:31:27 DEBUG user=a.b@domain.co action=logout ip=192.168.0.12
+2024-03-15 10:29:36 ERROR user=@onlydomain.com action=pay ip=127.0.0.01 card=4111-1111-1111-111
+2024-03-15 08:03:07 DEBUG user=olga@company.com action=logout ip=10.1.2.3 session=6604
+2024-03-15 11:23:09 INFO card=4000-1234-5678-9010 user=a.b@domain.co action=pay ip=127.0.0.1
+2024-03-15 09:29:15 WARN user=ivan@mail.ru action=retry ip=1.2.3.4.5
+2024-03-15 10:26:12 ERROR user=кириллица@mail.ru action=pay ip=192.168.-1.1 card=4111-1111-1111
+2024-03-15 08:42:30 DEBUG user=test_user@sub.domain.org action=pay ip=8.8.4.4 card=4111-1111-1111-1111
+2024-13-01 12:00:00 INFO user=ivan@mail.ru action=login ip=1.1.1.1
+2024-03-15 10:02:24 ERROR user=ivan@mail.ru action=pay ip=0.0.0.0 card=4111-1111-1111
+2024-03-15 08:15:18 WARN user=x@y.z action=export ip=10.1.2.3
+2024-03-15 13:12:14 INFO user=user+tag@gmail.com action=retry ip=1.1.1.1
+2024-03-15 10:59:55 WARN user=petr.sidorov@yandex.ru
+2024-03-15 10:01:16 ERROR user=olga@company.com action=pay ip=8.8.4.4 card=4111 1111 1111 1111
